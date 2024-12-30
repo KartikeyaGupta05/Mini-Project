@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>College Portal</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#academics">Academics</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="carousel">
+        <div class="list">
+            <div class="item">
+                <img src="images/img1.jpg" alt="Hackathon 2024">
+                <div class="introduce">
+                    <div class="title">UPCOMING EVENT</div>
+                    <div class="topic">Hackathon 2024</div>
+                    <div class="des">
+                        Join us for an electrifying Hackathon where innovation meets creativity! Showcase your skills, collaborate with peers, and bring your ideas to life.
+                    </div>
+                    <button class="seeMore">SEE MORE &#8599;</button>
+                </div>
+                <div class="detail">
+                    <div class="title">Hackathon 2024</div>
+                    <div class="des">
+                        Date: 15th January 2024  
+                        Location: Main Auditorium  
+                        Dive into 24 hours of non-stop coding, brainstorming, and fun. Exciting prizes await the winners!
+                    </div>
+                    <div class="specifications">
+                        <div>
+                            <p>Duration</p>
+                            <p>24 Hours</p>
+                        </div>
+                        <div>
+                            <p>Teams Allowed</p>
+                            <p>4 Members Max</p>
+                        </div>
+                        <div>
+                            <p>Tools</p>
+                            <p>Open Source</p>
+                        </div>
+                    </div>
+                    <div class="checkout">
+                        <button>REGISTER</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/img2.jpg" alt="Art and Culture Fest">
+                <div class="introduce">
+                    <div class="title">UPCOMING EVENT</div>
+                    <div class="topic">Art and Culture Fest</div>
+                    <div class="des">
+                        Celebrate the vibrant spirit of creativity at our Art and Culture Fest! A perfect blend of tradition and modernity.
+                    </div>
+                    <button class="seeMore">SEE MORE &#8599;</button>
+                </div>
+                <div class="detail">
+                    <div class="title">Art and Culture Fest</div>
+                    <div class="des">
+                        Date: 20th January 2024  
+                        Location: Cultural Hall  
+                        From dance and music to artwork and cuisine, immerse yourself in the diversity of culture!
+                    </div>
+                    <div class="specifications">
+                        <div>
+                            <p>Participation Fee</p>
+                            <p>Free</p>
+                        </div>
+                        <div>
+                            <p>Performance Slots</p>
+                            <p>Limited</p>
+                        </div>
+                        <div>
+                            <p>Special Highlights</p>
+                            <p>Live Band</p>
+                        </div>
+                    </div>
+                    <div class="checkout">
+                        <button>REGISTER</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/img3.jpg" alt="Tech Talks">
+                <div class="introduce">
+                    <div class="title">UPCOMING EVENT</div>
+                    <div class="topic">Tech Talks</div>
+                    <div class="des">
+                        Listen to industry experts and gain insights into the latest advancements in technology. Perfect for tech enthusiasts!
+                    </div>
+                    <button class="seeMore">SEE MORE &#8599;</button>
+                </div>
+                <div class="detail">
+                    <div class="title">Tech Talks</div>
+                    <div class="des">
+                        Date: 25th January 2024  
+                        Location: Lecture Hall 3  
+                        Learn from industry leaders about cutting-edge technologies and future trends.
+                    </div>
+                    <div class="specifications">
+                        <div>
+                            <p>Keynote Speaker</p>
+                            <p>John Doe, CTO TechCorp</p>
+                        </div>
+                        <div>
+                            <p>Topic</p>
+                            <p>Future of AI</p>
+                        </div>
+                        <div>
+                            <p>Q&A Session</p>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div class="checkout">
+                        <button>REGISTER</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="arrows">
+            <button id="prev">&#10094;</button>
+            <button id="next">&#10095;</button>
+            <button id="back">See All &#8599;</button>
+        </div>
+    </div>
+    
+
+
+
+
+    <!-- <section id="home" class="slider">
+        <div class="slides">
+            <div class="slide">
+                <img src="event1.jpg" alt="Hackathon">
+            </div>
+            <div class="slide">
+                <img src="event2.jpg" alt="Cultural Fest">
+            </div>
+            <div class="slide">
+                <img src="event3.jpg" alt="Tech Talks">
+            </div>
+        </div>
+        <div class="slider-buttons">
+            <button id="prev">&#10094;</button>
+            <button id="next">&#10095;</button>
+        </div>
+    </section> -->
+
+    <section id="events" class="container section">
+        <h3>Upcoming Events</h3>
+        <div class="event-card">
+            <!-- <h4><a href="event.html">Hackathon 2024</a></h4> -->
+            <h4><a href="event.html?event=hackathon2024">Hackathon 2024</a></h4>
+            <p>Date: 15th January 2024</p>
+            <p>Location: Main Auditorium</p>
+        </div>
+        
+        <div class="event-card">
+            <h4><a href="event.html?event=ideathon2024">ideathon 2024</a></h4>
+            <p>Date: 20th January 2024</p>
+            <p>Location: Cultural Hall</p>
+        </div>
+        <div class="event-card">
+            <h4><a href="event.html?event=hackathon2024">Hackathon 2024</a></h4>
+            <p>Date: 25th January 2024</p>
+            <p>Location: Lecture Hall 3</p>
+        </div>
+        <div class="event-card">
+            <h4>Sports Meet</h4>
+            <p>Date: 30th January 2024</p>
+            <p>Location: Sports Ground</p>
+        </div>
+        <div class="event-card">
+            <h4>Seminar on AI</h4>
+            <p>Date: 5th February 2024</p>
+            <p>Location: Lecture Hall 1</p>
+        </div>
+    </section>
+
+    <section id="resources" class="container section">
+        <h3>Academic Resources</h3>
+        <div class="resource-card">
+            <h4><a id="pyq-link" href="#">Previous Year Questions</a></h4>
+            <p>Access past exam papers to prepare effectively.</p>
+        </div>
+        <div class="resource-card">
+            <h4>Lecture Notes</h4>
+            <p>Find notes from lectures and tutorials.</p>
+        </div>
+        <div class="resource-card">
+            <h4>Reference Materials</h4>
+            <p>Explore additional study materials and guides.</p>
+        </div>
+    </section>
+
+    
+
+    <section id="contact" class="container section">
+        <h3>Contact Us</h3>
+        <form>
+            <div>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" placeholder="Your Full Name" required>
+            </div>
+            <div>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" placeholder="Your Email Address" required>
+            </div>
+            <div>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" placeholder="Your Phone Number" required>
+            </div>
+            <div>
+                <label for="inquiry">Type of Inquiry:</label>
+                <select id="inquiry">
+                    <option value="general">General Inquiry</option>
+                    <option value="event">Event Information</option>
+                    <option value="academic">Academic Resources</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" rows="5" placeholder="Write your message here" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 College Portal. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // let currentSlide = 0;
+        // const slides = document.querySelector('.slides');
+        // const totalSlides = slides.children.length;
+
+        // document.getElementById('next').addEventListener('click', () => {
+        //     currentSlide = (currentSlide + 1) % totalSlides;
+        //     updateSlider();
+        // });
+
+        // document.getElementById('prev').addEventListener('click', () => {
+        //     currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+        //     updateSlider();
+        // });
+
+        // function updateSlider() {
+        //     slides.style.transform = `translateX(-${currentSlide * 100}%)`;
+        // }
+
+        document.getElementById('pyq-link').addEventListener('click', (e) => {
+            e.preventDefault();
+            window.location.href = 'pyq.html';
+        });
+    </script>
+
+        <script src="app.js"></script>
+
+</body>
+</html>
