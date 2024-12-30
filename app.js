@@ -40,3 +40,8 @@ seeMoreButtons.forEach((button) => {
 backButton.onclick = function(){
     carousel.classList.remove('showDetail');
 }
+
+document.getElementById('pyq-link').addEventListener('click', (e) => {
+    e.preventDefault();
+    window.location.href = 'pyq.html';
+});
