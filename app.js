@@ -45,3 +45,8 @@ document.getElementById('pyq-link').addEventListener('click', (e) => {
     e.preventDefault();
     window.location.href = 'pyq.html';
 });
+
+document.getElementById('notes-link').addEventListener('click', (e) => {
+    e.preventDefault();
+    window.location.href = 'Notes.html';
+});
