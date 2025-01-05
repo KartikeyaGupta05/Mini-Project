@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <div class="container">
+        <h2>Get in Touch</h2>
+        <form action="#" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Type your message here..." required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Newsletter Signup -->
+            <div class="footer-section newsletter">
+                <h3>Subscribe to Our Newsletter</h3>
+                <form action="#" method="POST">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+    
+            <!-- Quick Links -->
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="/event.html">Upcoming Events</a></li>
+                    <li><a href="/contact.html">Contact Us</a></li>
+                    <li><a href="/gallery.html">Event Gallery</a></li>
+                </ul>
+            </div>
+    
+            <!-- Social Media Links -->
+            <div class="footer-section social">
+                <h3>Follow Us</h3>
+                <a rel="noopener" href="https://facebook.com" target="_blank">Facebook</a> |
+                <a rel="noopener" href="https://twitter.com" target="_blank">Twitter</a> |
+                <a rel="noopener" href="https://instagram.com" target="_blank">Instagram</a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>© 2024 College Portal | Designed with ❤️ by the Event Team</p>
+            <button id="back-to-top">Back to Top</button>
+        </div>
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>

@@ -4,59 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Details</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        header {
-            background-color: #007bff;
-            color: #ffffff;
-            padding: 15px 20px;
-            text-align: center;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2em;
-        }
-        .container {
-            margin: 20px auto;
-            max-width: 800px;
-            padding: 20px;
-            background-color: #ffffff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-        h2 {
-            color: #007bff;
-            margin-bottom: 10px;
-        }
-        .details {
-            line-height: 1.6;
-            margin-bottom: 20px;
-        }
-        .coordinator-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-        .coordinator-list li {
-            margin-bottom: 5px;
-        }
-        footer {
-            background-color: #007bff;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="event.css">
     </style>
 </head>
 <body>
@@ -70,19 +19,66 @@
             <p><strong>Date:</strong> 15th January 2024</p>
             <p><strong>Time:</strong> 10:00 AM - 6:00 PM</p>
             <p><strong>Location:</strong> Main Auditorium</p>
-            <p><strong>Description:</strong> Participate in our annual Hackathon and showcase your coding skills. Form a team, solve challenging problems, and compete for exciting prizes!</p>
+            <p><strong>Description:</strong> Join us for an exciting Hackathon and showcase your coding skills! Team up, tackle challenges, and win amazing prizes!</p>
         </div>
         
-        <h3>Coordinators</h3>
+        <h3>Event Coordinators</h3>
         <ul class="coordinator-list">
-            <li><strong>Student Coordinator:</strong> John Doe (Email: john.doe@example.com, Phone: +1234567890)</li>
-            <li><strong>Student Coordinator:</strong> Jane Smith (Email: jane.smith@example.com, Phone: +0987654321)</li>
-            <li><strong>Faculty Coordinator:</strong> Prof. Alan Turing (Email: alan.turing@example.edu)</li>
+            <li><strong>John Doe</strong> | Email: john.doe@example.com | Phone: +1234567890</li>
+            <li><strong>Jane Smith</strong> | Email: jane.smith@example.com | Phone: +0987654321</li>
+            <li><strong>Prof. Alan Turing</strong> | Email: alan.turing@example.edu</li>
         </ul>
+
+        <div class="button-wrapper">
+            <a href="/register.html">Register Now</a>
+        </div>
     </div>
 
-    <footer>
-        <p>&copy; 2024 College Portal. All Rights Reserved.</p>
-    </footer>
+    <footer class="footer">
+        <div class="footer-container">
+      
+          <!-- About Section -->
+          <div class="footer-section about">
+            <h3>About Us</h3>
+            <p>
+              Welcome to <strong>[Your College Name]</strong>'s event portal. Discover hackathons, workshops, and cultural events happening on campus. Join us in making every event unforgettable!
+            </p>
+          </div>
+      
+          <!-- Quick Links -->
+          <div class="footer-section quick-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="/event.html">Upcoming Events</a></li>
+              <li><a href="/register">Register for Events</a></li>
+              <li><a href="/gallery">Event Gallery</a></li>
+              <li><a href="/contact-us">Contact Us</a></li>
+            </ul>
+          </div>
+      
+          <!-- Contact Information -->
+          <div class="footer-section contact">
+            <h3>Contact Us</h3>
+            <p><strong>Email:</strong> events@[yourcollege].edu</p>
+            <p><strong>Phone:</strong> +91 9876543210</p>
+            <p><strong>Location:</strong> [Your College Address]</p>
+          </div>
+      
+          <!-- Social Media Section -->
+          <div class="footer-section social-media">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+              <a rel="noopener" href="https://facebook.com" target="_blank" class="icon facebook"><i class="fab fa-facebook"></i></a>
+              <a rel="noopener" href="https://twitter.com" target="_blank" class="icon twitter"><i class="fab fa-twitter"></i></a>
+              <a rel="noopener" href="https://instagram.com" target="_blank" class="icon instagram"><i class="fab fa-instagram"></i></a>
+              <a rel="noopener" href="https://linkedin.com" target="_blank" class="icon linkedin"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+      
+        </div>
+        <div class="footer-bottom">
+          <p>© 2025 [Your College Name] | Designed with ❤️ by the Event Team</p>
+        </div>
+      </footer>
 </body>
 </html>
